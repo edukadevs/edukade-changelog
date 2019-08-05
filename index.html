@@ -28,18 +28,62 @@
             2.0.0 (retrieved 27 July 2019).
         </p>
 
-
-
-        <h2>0.3.0 (under development)</h2>
-
-        <h3>0.3.0-alpha.2</h3>
+        <h2>0.4.0 (3 August 2019)</h2>
         <ul>
-            <li>a</li>
+            <li>Chapter 1 screen is now accessible</li>
+            <ul>
+                <li>
+                    In the chapter select screen, pressing on ABC now redirects
+                    to the chapter 1 screen
+                </li>
+                <ul>
+                    <li>
+                        The pressed-down sprite of the ABC button is yet to be
+                        added
+                    </li>
+                </ul>
+
+                <li>
+                    In the chapter 1 screen, the return button now actually
+                    redirects to the chapter select screen, as planned
+                </li>
+            </ul>
+            <li>
+                Removed placeholder text underneath "A" and "B" in the chapter
+                1 screen; now they are empty, pressable buttons that do not
+                redirect to anywhere
+            </li>
+            <li>
+                <em>Bug found:</em>
+                When pressing a button, if its pressed-down sprite does not
+                appear but the finger is immediately lifted (making the button
+                no longer pressed), the AI companion crashes. <strong>This has
+                not yet been tested with the app actually compiled as an APK
+                file.</strong>
+            </li>
         </ul>
 
-        <h3>0.3.0-alpha.1 (27 July 2019)</h3>
+        <h2>0.3.0 (27 July 2019)</h2>
         <ul>
-            <li>a</li>
+            <li>Added (not yet accessible) chapter 1 screen</li>
+            <ul>
+                <li>
+                    Added small version of the logo (like in the chapter select
+                    screen)
+                </li>
+                <li>Added books-on-a-table-in-nature background</li>
+                <li>
+                    Added a (not yet functioining) return button to return to
+                    the chapter select screen
+                </li>
+                <li>
+                    Starting to add levels, with labels A and B placed
+                    appropriately on the bottom, and (not yet functioning)
+                    buttons underneath each one both labeled "Text" as a
+                    placeholder, later to be pressed to play the respective
+                    level
+                </li>
+            </ul>
         </ul>
 
 
@@ -48,6 +92,7 @@
         <ul>
             <li>Added chapter select screen</li>
             <ul>
+                <li>Uses the same background image as the main menu</li>
                 <li>Added smaller version of the logo</li>
                 <li>Added a return button to redirect to the main menu</li>
                 <li>Added a (not yet functioning) settings button</li>
